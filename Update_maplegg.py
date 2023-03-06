@@ -20,7 +20,7 @@ Member = (("권강현","밍먕의",0),("김대성","머성머",0),("김민섭","
         ("최민호","쪼꼬",1),("최재원","하늘뱀장어",1),("최준용","람검",4),("한민욱","쓸윈부쓸윈브",1),
         ("한승수","티모선",0))
 
-Count=0
+
 
 for Name,Nickname,Server in Member:
         Convert_Nick=urllib.parse.quote(Nickname) #닉네임 url 인코딩
