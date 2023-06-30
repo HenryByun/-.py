@@ -39,3 +39,7 @@ for Name,Nickname,Server in Member:
                         driver.get(f"https://maple.gg/u/{Convert_Nick}")
                         Last_Update=driver.find_element(By.XPATH,"//*[@id='user-profile']/section/div[2]/div[2]/div[5]/div[1]/span").text
 
+
+
+print("완료")
+
