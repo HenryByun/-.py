@@ -42,4 +42,5 @@ for Name,Nickname,Server in Member:
 
 
 print("완료")
+print("ttt")
 
